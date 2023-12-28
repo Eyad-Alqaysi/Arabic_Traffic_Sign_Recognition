@@ -10,7 +10,7 @@ print(f"Using device: {device}")
 
 # Load your model
 model = timm.create_model('mobilevitv2_075.cvnets_in1k', pretrained=True)
-state_dict = torch.load('./99.87/best.pt')
+state_dict = torch.load('./models/best.pt')
 try:
     model.load_state_dict(state_dict)
 except RuntimeError as e:
