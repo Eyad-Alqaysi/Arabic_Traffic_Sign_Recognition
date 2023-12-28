@@ -25,7 +25,7 @@ transform = transforms.Compose([
     transforms.Resize((224, 224)), 
     transforms.ToTensor(),
 ])
-train_dataset = datasets.ImageFolder(root='../main_dataset/train', transform=transform)
+train_dataset = datasets.ImageFolder(root='../../main_dataset/train', transform=transform)
 train_loader = DataLoader(train_dataset, batch_size=64, shuffle=False)
 
 print('Start train testing...\n')

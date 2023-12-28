@@ -25,7 +25,7 @@ transform = transforms.Compose([
     transforms.Resize((224, 224)), 
     transforms.ToTensor(),
 ])
-val_dataset = datasets.ImageFolder(root='../main_dataset/val', transform=transform)
+val_dataset = datasets.ImageFolder(root='../../main_dataset/val', transform=transform)
 val_loader = DataLoader(val_dataset, batch_size=64, shuffle=False)
 
 print('Start val testing...\n')

@@ -23,10 +23,9 @@ model.eval()
 # Prepare your test dataset and DataLoader
 transform = transforms.Compose([
     transforms.Resize((224, 224)), 
-    # Remove augmentation transformations like RandomRotation and ColorJitter for testing
     transforms.ToTensor(),
 ])
-test_dataset = datasets.ImageFolder(root='../main_dataset/test', transform=transform)
+test_dataset = datasets.ImageFolder(root='../../main_dataset/test', transform=transform)
 test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
 
 print('Start testing...\n')
