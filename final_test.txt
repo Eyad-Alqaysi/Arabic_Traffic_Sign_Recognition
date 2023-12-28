@@ -1,0 +1,26 @@
+# Test_Data
+    Using device: cuda
+
+    Accuracy: 0.9966737224070155
+    F1 Weighted Score: 0.9966731542098958
+    F1 Macro Score: 0.9963842948469085
+    Correct: 3296
+    Total: 3307
+
+# Val_Data
+    Using device: cuda
+
+    Accuracy: 0.9978742787731552
+    F1 Weighted Score: 0.9978746113900365
+    F1 Macro Score: 0.9976907269190046
+    Correct: 3286
+    Total: 3293
+
+# Train_Data
+    Using device: cuda
+
+    Accuracy: 0.9978409090909091
+    F1 Weighted Score: 0.9978401276472619
+    F1 Macro Score: 0.9976521959754647
+    Correct: 26343
+    Total: 26400

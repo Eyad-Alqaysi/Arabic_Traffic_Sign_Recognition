@@ -1,0 +1,302 @@
+# 1st 
+features_out = 512
+hidden_features = 256
+num_classes = len(train_dataset.classes)
+# 1
+Start training...
+        Epoch 1, Accuracy: 99.69761112791049%, Loss: 0.019228920340538025
+        Epoch 2, Accuracy: 99.69761112791049%, Loss: 0.0004031111893709749
+        Epoch 3, Accuracy: 99.7580889023284%, Loss: 0.0005309917032718658
+        Epoch 4, Accuracy: 99.66737224070154%, Loss: 0.0010321368463337421
+        Epoch 5, Accuracy: 99.78832778953735%, Loss: 0.0006082846666686237
+        Epoch 6, Accuracy: 99.78832778953735%, Loss: 0.00014401461521629244
+        Epoch 7, Accuracy: 99.72785001511944%, Loss: 1.4751627531950362e-05
+        Epoch 8, Accuracy: 98.85092228605987%, Loss: 0.009113010950386524
+        Epoch 9, Accuracy: 99.78832778953735%, Loss: 8.85915505932644e-05
+        Epoch 10, Accuracy: 99.69761112791049%, Loss: 7.077342161210254e-05
+
+# 2 
+Start training...
+        Epoch 1, Accuracy: 99.03235560931358%, Loss: 0.06224691495299339
+        Epoch 2, Accuracy: 99.7580889023284%, Loss: 5.085087104816921e-05
+        Epoch 3, Accuracy: 96.76443906864228%, Loss: 0.13876698911190033
+        Epoch 4, Accuracy: 99.72785001511944%, Loss: 4.8387730203103274e-05
+        Epoch 5, Accuracy: 99.72785001511944%, Loss: 6.98724397807382e-05
+        Epoch 6, Accuracy: 99.54641669186574%, Loss: 0.001998780993744731
+        Epoch 7, Accuracy: 99.69761112791049%, Loss: 7.09577216184698e-05
+        Epoch 8, Accuracy: 98.85092228605987%, Loss: 0.0012219494674354792
+        Epoch 9, Accuracy: 99.45570003023889%, Loss: 0.18010394275188446
+        Epoch 10, Accuracy: 99.78832778953735%, Loss: 0.00037380671710707247
+
+# 3
+Start training...
+        Epoch 1, Accuracy: 99.42546114302993%, Loss: 0.005787158850580454
+        Epoch 2, Accuracy: 99.60689446628363%, Loss: 0.1517866849899292
+        Epoch 3, Accuracy: 98.94163894768673%, Loss: 0.4143677353858948
+        Epoch 4, Accuracy: 99.63713335349259%, Loss: 5.357891495805234e-05
+        Epoch 5, Accuracy: 99.72785001511944%, Loss: 0.00039629306411370635
+        Epoch 6, Accuracy: 99.63713335349259%, Loss: 0.00044784974306821823
+        Epoch 7, Accuracy: 99.54641669186574%, Loss: 0.07005979865789413
+        Epoch 8, Accuracy: 99.78832778953735%, Loss: 5.508406684384681e-05
+        Epoch 9, Accuracy: 99.72785001511944%, Loss: 7.685121090617031e-06
+        Epoch 10, Accuracy: 99.72785001511944%, Loss: 6.16165780229494e-05
+
+# 4
+Start training...
+        Epoch 1, Accuracy: 99.45570003023889%, Loss: 0.03924012556672096
+        Epoch 2, Accuracy: 98.30662231629876%, Loss: 0.035173945128917694
+        Epoch 3, Accuracy: 99.72785001511944%, Loss: 7.552435272373259e-05
+        Epoch 4, Accuracy: 99.45570003023889%, Loss: 0.011625619605183601
+        Epoch 5, Accuracy: 99.78832778953735%, Loss: 4.756904309033416e-05
+        Epoch 6, Accuracy: 99.72785001511944%, Loss: 5.627725113299675e-05
+        Epoch 7, Accuracy: 99.72785001511944%, Loss: 0.0002577971026767045
+        Epoch 8, Accuracy: 99.78832778953735%, Loss: 3.9685739466222e-05
+        Epoch 9, Accuracy: 99.5766555790747%, Loss: 0.02859513834118843
+        Epoch 10, Accuracy: 99.72785001511944%, Loss: 0.0025313945952802896
+
+# 5
+Start training...
+        Epoch 1, Accuracy: 99.63713335349259%, Loss: 0.018964465707540512
+        Epoch 2, Accuracy: 99.69761112791049%, Loss: 0.00043975416338071227
+        Epoch 3, Accuracy: 98.85092228605987%, Loss: 0.0010653736535459757
+        Epoch 4, Accuracy: 99.72785001511944%, Loss: 2.2868805899634026e-05
+        Epoch 5, Accuracy: 99.66737224070154%, Loss: 0.0005808403366245329
+        Epoch 6, Accuracy: 99.78832778953735%, Loss: 6.625040259677917e-05
+        Epoch 7, Accuracy: 99.69761112791049%, Loss: 0.00041292086825706065
+        Epoch 8, Accuracy: 99.72785001511944%, Loss: 2.381360172876157e-05
+        Epoch 9, Accuracy: 99.42546114302993%, Loss: 0.02716057002544403
+        Epoch 10, Accuracy: 99.72785001511944%, Loss: 6.134014984127134e-05
+
+# 6 
+Start training...
+        Epoch 1, Accuracy: 99.5766555790747%, Loss: 0.013920270837843418, F1-score: 1.0
+        Epoch 2, Accuracy: 99.09283338373147%, Loss: 0.06748399138450623, F1-score: 1.0
+        Epoch 3, Accuracy: 99.54641669186574%, Loss: 0.0028263006825000048, F1-score: 1.0
+        Epoch 4, Accuracy: 99.66737224070154%, Loss: 6.0151251091156155e-05, F1-score: 1.0
+        Epoch 5, Accuracy: 99.72785001511944%, Loss: 0.000814897648524493, F1-score: 1.0
+        Epoch 6, Accuracy: 98.36710009071666%, Loss: 0.04972878098487854, F1-score: 0.47619047619047616
+        Epoch 7, Accuracy: 99.66737224070154%, Loss: 3.285876664449461e-05, F1-score: 1.0
+        Epoch 8, Accuracy: 99.48593891744784%, Loss: 0.014921307563781738, F1-score: 1.0
+        Epoch 9, Accuracy: 99.69761112791049%, Loss: 0.00016501505160704255, F1-score: 1.0
+        Epoch 10, Accuracy: 99.78832778953735%, Loss: 0.00013024425425101072, F1-score: 1.0
+
+# 7 RFC
+        Accuracy: 92.62171152101602%, F1-score: 0.9308190204507222
+
+# 8 RFC 
+        Accuracy: 92.31932264892652%, F1-score: 0.9270102110784076
+
+# 9 XGBOOST
+        Accuracy: 92.86362261868763%, F1-score: 0.9324866277570947
+
+# 10 MOBILEVITV3
+
+        Epoch 1, Accuracy: 99.72785001511944%, Loss: 0.00655882665887475, F1-score: 1.0
+	Epoch 2, Accuracy: 99.66737224070153%, Loss: 0.0006507177022285759, F1-score: 1.0
+	Epoch 3, Accuracy: 99.78832778953734%, Loss: 0.0009732918697409332, F1-score: 1.0
+	Epoch 4, Accuracy: 99.6976111279105%, Loss: 0.0001118194340961054, F1-score: 1.0
+	Epoch 5, Accuracy: 99.72785001511944%, Loss: 0.0001321112213190645, F1-score: 1.0
+	Epoch 6, Accuracy: 99.7580889023284%, Loss: 4.523077586782165e-05, F1-score: 1.0
+	Epoch 7, Accuracy: 99.78832778953734%, Loss: 0.00017950274923350662, F1-score: 1.0
+	Epoch 8, Accuracy: 99.78832778953734%, Loss: 0.034511420875787735, F1-score: 1.0
+	Epoch 9, Accuracy: 99.72785001511944%, Loss: 0.017289740964770317, F1-score: 1.0
+	Epoch 10, Accuracy: 99.78832778953734%, Loss: 1.847574458224699e-05, F1-score: 1.0
+
+# 11 100epoch
+Start training...
+        Epoch 1, Accuracy: 10.341699425461144%, Loss: 5.1081414222717285, F1-score: 0.0, LR: 1e-05
+        Epoch 2, Accuracy: 57.3631690353795%, Loss: 2.619110345840454, F1-score: 0.10416666666666667, LR: 9.5e-06
+        Epoch 3, Accuracy: 77.0486846084064%, Loss: 1.3686467409133911, F1-score: 0.45, LR: 9.025e-06
+        Epoch 4, Accuracy: 86.05987299667372%, Loss: 0.8208422660827637, F1-score: 0.3, LR: 8.57375e-06
+        Epoch 5, Accuracy: 90.11188388267311%, Loss: 0.4478912949562073, F1-score: 0.47619047619047616, LR: 8.1450625e-06
+        Epoch 6, Accuracy: 92.86362261868763%, Loss: 0.22579140961170197, F1-score: 0.47619047619047616, LR: 7.737809375e-06
+        Epoch 7, Accuracy: 95.01058361052313%, Loss: 0.2987382113933563, F1-score: 0.47619047619047616, LR: 7.35091890625e-06
+        Epoch 8, Accuracy: 96.28061687329907%, Loss: 0.2618761360645294, F1-score: 1.0, LR: 6.9833729609374995e-06
+        Epoch 9, Accuracy: 97.9135167825824%, Loss: 0.07523976266384125, F1-score: 0.47619047619047616, LR: 6.634204312890624e-06
+        Epoch 10, Accuracy: 98.63925007559722%, Loss: 0.2699098587036133, F1-score: 1.0, LR: 6.302494097246093e-06
+        Epoch 11, Accuracy: 98.45781675234352%, Loss: 0.029190093278884888, F1-score: 1.0, LR: 5.9873693923837885e-06
+        Epoch 12, Accuracy: 99.21378893256728%, Loss: 0.042957011610269547, F1-score: 1.0, LR: 5.688000922764599e-06
+        Epoch 13, Accuracy: 99.42546114302993%, Loss: 0.0670427456498146, F1-score: 1.0, LR: 5.403600876626369e-06
+        Epoch 14, Accuracy: 99.45570003023889%, Loss: 0.01515861414372921, F1-score: 1.0, LR: 5.13342083279505e-06
+        Epoch 15, Accuracy: 99.27426670698519%, Loss: 0.12239670753479004, F1-score: 1.0, LR: 4.876749791155297e-06
+        Epoch 16, Accuracy: 99.48593891744784%, Loss: 0.0342419296503067, F1-score: 1.0, LR: 4.6329123015975315e-06
+        Epoch 17, Accuracy: 99.60689446628363%, Loss: 0.014898966066539288, F1-score: 1.0, LR: 4.401266686517655e-06
+        Epoch 18, Accuracy: 99.54641669186574%, Loss: 0.028750380501151085, F1-score: 1.0, LR: 4.181203352191772e-06
+        Epoch 19, Accuracy: 99.5766555790747%, Loss: 0.0555310919880867, F1-score: 1.0, LR: 3.972143184582183e-06
+        Epoch 20, Accuracy: 99.66737224070154%, Loss: 0.010835054330527782, F1-score: 1.0, LR: 3.773536025353074e-06
+        Epoch 21, Accuracy: 99.66737224070154%, Loss: 0.008140318095684052, F1-score: 1.0, LR: 3.58485922408542e-06
+        Epoch 22, Accuracy: 99.78832778953735%, Loss: 0.018086889758706093, F1-score: 1.0, LR: 3.405616262881149e-06
+        Epoch 23, Accuracy: 99.72785001511944%, Loss: 0.0033649737015366554, F1-score: 1.0, LR: 3.2353354497370914e-06
+        Epoch 24, Accuracy: 99.66737224070154%, Loss: 0.004799622111022472, F1-score: 1.0, LR: 3.0735686772502367e-06
+        Epoch 25, Accuracy: 99.69761112791049%, Loss: 0.008158196695148945, F1-score: 1.0, LR: 2.9198902433877247e-06
+        Epoch 26, Accuracy: 99.84880556395525%, Loss: 0.004913030657917261, F1-score: 1.0, LR: 2.7738957312183385e-06
+        Epoch 27, Accuracy: 99.7580889023284%, Loss: 0.0054978542029857635, F1-score: 1.0, LR: 2.6352009446574215e-06
+        Epoch 28, Accuracy: 99.72785001511944%, Loss: 0.007601575925946236, F1-score: 1.0, LR: 2.5034408974245503e-06
+        Epoch 29, Accuracy: 99.5766555790747%, Loss: 0.00706110242754221, F1-score: 1.0, LR: 2.378268852553323e-06
+        Epoch 30, Accuracy: 99.8185666767463%, Loss: 0.0028765613678842783, F1-score: 1.0, LR: 2.2593554099256565e-06
+        Epoch 31, Accuracy: 99.87904445116419%, Loss: 0.11245732009410858, F1-score: 1.0, LR: 2.1463876394293738e-06
+        Epoch 32, Accuracy: 99.66737224070154%, Loss: 0.004200057592242956, F1-score: 1.0, LR: 2.0390682574579048e-06
+        Epoch 33, Accuracy: 99.7580889023284%, Loss: 0.00269749341532588, F1-score: 1.0, LR: 1.9371148445850093e-06
+        Epoch 34, Accuracy: 99.63713335349259%, Loss: 0.058607589453458786, F1-score: 1.0, LR: 1.8402591023557588e-06
+        Epoch 35, Accuracy: 99.7580889023284%, Loss: 0.001149440067820251, F1-score: 1.0, LR: 1.7482461472379708e-06
+        Epoch 36, Accuracy: 99.8185666767463%, Loss: 0.0008565597236156464, F1-score: 1.0, LR: 1.660833839876072e-06
+        Epoch 37, Accuracy: 99.7580889023284%, Loss: 0.005736636929214001, F1-score: 1.0, LR: 1.5777921478822684e-06
+        Epoch 38, Accuracy: 99.69761112791049%, Loss: 0.04803848639130592, F1-score: 1.0, LR: 1.4989025404881549e-06
+        Epoch 39, Accuracy: 99.78832778953735%, Loss: 0.0016959232743829489, F1-score: 1.0, LR: 1.423957413463747e-06
+        Epoch 40, Accuracy: 99.72785001511944%, Loss: 0.054198089987039566, F1-score: 1.0, LR: 1.3527595427905595e-06
+        Epoch 41, Accuracy: 99.69761112791049%, Loss: 0.003814496099948883, F1-score: 1.0, LR: 1.2851215656510316e-06
+        Epoch 42, Accuracy: 99.7580889023284%, Loss: 0.01484412420541048, F1-score: 1.0, LR: 1.22086548736848e-06
+        Epoch 43, Accuracy: 99.8185666767463%, Loss: 0.003451888682320714, F1-score: 1.0, LR: 1.159822213000056e-06
+        Epoch 44, Accuracy: 99.7580889023284%, Loss: 0.0007695644744671881, F1-score: 1.0, LR: 1.1018311023500532e-06
+        Epoch 45, Accuracy: 99.8185666767463%, Loss: 0.02382132038474083, F1-score: 1.0, LR: 1.0467395472325506e-06
+        Epoch 46, Accuracy: 99.72785001511944%, Loss: 0.003549408633261919, F1-score: 1.0, LR: 9.944025698709232e-07
+        Epoch 47, Accuracy: 99.66737224070154%, Loss: 0.008785822428762913, F1-score: 1.0, LR: 9.44682441377377e-07
+        Epoch 48, Accuracy: 99.69761112791049%, Loss: 0.006113818380981684, F1-score: 1.0, LR: 8.974483193085081e-07
+        Epoch 49, Accuracy: 99.66737224070154%, Loss: 0.0045728497207164764, F1-score: 1.0, LR: 8.525759033430826e-07
+        Epoch 50, Accuracy: 99.72785001511944%, Loss: 0.0036214913707226515, F1-score: 1.0, LR: 8.099471081759284e-07
+        Epoch 51, Accuracy: 99.78832778953735%, Loss: 0.0030240353662520647, F1-score: 1.0, LR: 7.69449752767132e-07
+        Epoch 52, Accuracy: 99.69761112791049%, Loss: 0.0022327641490846872, F1-score: 1.0, LR: 7.309772651287753e-07
+        Epoch 53, Accuracy: 99.7580889023284%, Loss: 0.0005148841883055866, F1-score: 1.0, LR: 6.944284018723365e-07
+        Epoch 54, Accuracy: 99.8185666767463%, Loss: 0.0015401180135086179, F1-score: 1.0, LR: 6.597069817787197e-07
+        Epoch 55, Accuracy: 99.72785001511944%, Loss: 0.06995046883821487, F1-score: 1.0, LR: 6.267216326897837e-07
+        Epoch 56, Accuracy: 99.7580889023284%, Loss: 0.0006631338037550449, F1-score: 1.0, LR: 5.953855510552945e-07
+        Epoch 57, Accuracy: 99.7580889023284%, Loss: 0.004200763069093227, F1-score: 1.0, LR: 5.656162735025297e-07
+        Epoch 58, Accuracy: 99.78832778953735%, Loss: 0.021390557289123535, F1-score: 1.0, LR: 5.373354598274032e-07
+        Epoch 59, Accuracy: 99.63713335349259%, Loss: 0.0017540297703817487, F1-score: 1.0, LR: 5.10468686836033e-07
+        Epoch 60, Accuracy: 99.63713335349259%, Loss: 0.0033080417197197676, F1-score: 1.0, LR: 4.849452524942313e-07
+        Epoch 61, Accuracy: 99.5766555790747%, Loss: 0.0008474064525216818, F1-score: 1.0, LR: 4.606979898695197e-07
+        Epoch 62, Accuracy: 99.7580889023284%, Loss: 0.027823053300380707, F1-score: 1.0, LR: 4.376630903760437e-07
+        Epoch 63, Accuracy: 99.7580889023284%, Loss: 0.01343787182122469, F1-score: 1.0, LR: 4.157799358572415e-07
+        Epoch 64, Accuracy: 99.72785001511944%, Loss: 0.0032131951302289963, F1-score: 1.0, LR: 3.949909390643794e-07
+        Epoch 65, Accuracy: 99.72785001511944%, Loss: 0.10159267485141754, F1-score: 1.0, LR: 3.752413921111604e-07
+        Epoch 66, Accuracy: 99.69761112791049%, Loss: 0.0005600281292572618, F1-score: 1.0, LR: 3.564793225056024e-07
+        Epoch 67, Accuracy: 99.66737224070154%, Loss: 0.041002072393894196, F1-score: 1.0, LR: 3.3865535638032227e-07
+        Epoch 68, Accuracy: 99.7580889023284%, Loss: 0.017079472541809082, F1-score: 1.0, LR: 3.2172258856130614e-07
+        Epoch 69, Accuracy: 99.69761112791049%, Loss: 0.0008106025052256882, F1-score: 1.0, LR: 3.056364591332408e-07
+        Epoch 70, Accuracy: 99.66737224070154%, Loss: 0.03240411728620529, F1-score: 1.0, LR: 2.9035463617657877e-07
+        Epoch 71, Accuracy: 99.7580889023284%, Loss: 0.0016778629506006837, F1-score: 1.0, LR: 2.7583690436774984e-07
+        Epoch 72, Accuracy: 99.66737224070154%, Loss: 0.0010552247986197472, F1-score: 1.0, LR: 2.620450591493623e-07
+        Epoch 73, Accuracy: 99.7580889023284%, Loss: 0.0011572170769795775, F1-score: 1.0, LR: 2.4894280619189417e-07
+        Epoch 74, Accuracy: 99.78832778953735%, Loss: 0.0014770941343158484, F1-score: 1.0, LR: 2.3649566588229946e-07
+        Epoch 75, Accuracy: 99.69761112791049%, Loss: 0.0008463416015729308, F1-score: 1.0, LR: 2.2467088258818448e-07
+        Epoch 76, Accuracy: 99.8185666767463%, Loss: 0.005656206049025059, F1-score: 1.0, LR: 2.1343733845877524e-07
+        Epoch 77, Accuracy: 99.7580889023284%, Loss: 0.0007118501234799623, F1-score: 1.0, LR: 2.0276547153583647e-07
+        Epoch 78, Accuracy: 99.7580889023284%, Loss: 0.0009698655921965837, F1-score: 1.0, LR: 1.9262719795904463e-07
+        Epoch 79, Accuracy: 99.69761112791049%, Loss: 0.00143629708327353, F1-score: 1.0, LR: 1.8299583806109238e-07
+        Epoch 80, Accuracy: 99.7580889023284%, Loss: 0.007768421433866024, F1-score: 1.0, LR: 1.7384604615803775e-07
+        Epoch 81, Accuracy: 99.66737224070154%, Loss: 0.0033262246288359165, F1-score: 1.0, LR: 1.6515374385013586e-07
+        Epoch 82, Accuracy: 99.72785001511944%, Loss: 0.006732924375683069, F1-score: 1.0, LR: 1.5689605665762907e-07
+        Epoch 83, Accuracy: 99.72785001511944%, Loss: 0.0013497833861038089, F1-score: 1.0, LR: 1.490512538247476e-07
+        Epoch 84, Accuracy: 99.63713335349259%, Loss: 0.0034004137851297855, F1-score: 1.0, LR: 1.4159869113351022e-07
+        Epoch 85, Accuracy: 99.72785001511944%, Loss: 0.00190355337690562, F1-score: 1.0, LR: 1.345187565768347e-07
+        Epoch 86, Accuracy: 99.7580889023284%, Loss: 0.0023549944162368774, F1-score: 1.0, LR: 1.2779281874799297e-07
+        Epoch 87, Accuracy: 99.69761112791049%, Loss: 0.0015383255667984486, F1-score: 1.0, LR: 1.2140317781059332e-07
+        Epoch 88, Accuracy: 99.7580889023284%, Loss: 0.0009277486242353916, F1-score: 1.0, LR: 1.1533301892006366e-07
+        Epoch 89, Accuracy: 99.66737224070154%, Loss: 0.00040238225483335555, F1-score: 1.0, LR: 1.0956636797406046e-07
+        Epoch 90, Accuracy: 99.72785001511944%, Loss: 0.0007011905545368791, F1-score: 1.0, LR: 1.0408804957535743e-07
+        Epoch 91, Accuracy: 99.72785001511944%, Loss: 0.001296464935876429, F1-score: 1.0, LR: 9.888364709658955e-08
+        Epoch 92, Accuracy: 99.72785001511944%, Loss: 0.047195713967084885, F1-score: 1.0, LR: 9.393946474176007e-08
+        Epoch 93, Accuracy: 99.78832778953735%, Loss: 0.0009934231638908386, F1-score: 1.0, LR: 8.924249150467207e-08
+        Epoch 94, Accuracy: 99.87904445116419%, Loss: 0.006728058215230703, F1-score: 1.0, LR: 8.478036692943847e-08
+        Epoch 95, Accuracy: 99.72785001511944%, Loss: 0.0026017283089458942, F1-score: 1.0, LR: 8.054134858296653e-08
+        Epoch 96, Accuracy: 99.69761112791049%, Loss: 0.002513707149773836, F1-score: 1.0, LR: 7.65142811538182e-08
+        Epoch 97, Accuracy: 99.69761112791049%, Loss: 0.016776589676737785, F1-score: 1.0, LR: 7.268856709612728e-08
+        Epoch 98, Accuracy: 99.84880556395525%, Loss: 0.0009288303554058075, F1-score: 1.0, LR: 6.905413874132092e-08
+        Epoch 99, Accuracy: 99.7580889023284%, Loss: 0.003911895211786032, F1-score: 1.0, LR: 6.560143180425487e-08
+        Epoch 100, Accuracy: 99.7580889023284%, Loss: 0.0010898015461862087, F1-score: 1.0, LR: 6.232136021404212e-08
+
+#12 
+start training...
+        Epoch 1, Accuracy: 97.6716056849108%, Loss: 0.03202570229768753, F1-score: 1.0, LR: 0.0001
+        Epoch 2, Accuracy: 99.66737224070154%, Loss: 0.00545603409409523, F1-score: 1.0, LR: 9.5e-05
+        Epoch 3, Accuracy: 99.5766555790747%, Loss: 0.002797649707645178, F1-score: 1.0, LR: 9.025e-05
+        Epoch 4, Accuracy: 99.7580889023284%, Loss: 0.005423355847597122, F1-score: 1.0, LR: 8.573749999999999e-05
+        Epoch 5, Accuracy: 99.7580889023284%, Loss: 0.05734845623373985, F1-score: 1.0, LR: 8.145062499999998e-05
+        Epoch 6, Accuracy: 99.72785001511944%, Loss: 0.002018531085923314, F1-score: 1.0, LR: 7.737809374999998e-05
+        Epoch 7, Accuracy: 99.72785001511944%, Loss: 0.0033333334140479565, F1-score: 1.0, LR: 7.350918906249998e-05
+        Epoch 8, Accuracy: 99.69761112791049%, Loss: 0.0001925647957250476, F1-score: 1.0, LR: 6.983372960937497e-05
+        Epoch 9, Accuracy: 99.69761112791049%, Loss: 0.0008710324764251709, F1-score: 1.0, LR: 6.634204312890622e-05
+        Epoch 10, Accuracy: 99.7580889023284%, Loss: 4.261425056029111e-05, F1-score: 1.0, LR: 6.30249409724609e-05
+Training finished, total time: 2193.8193633556366
+
+# lightweight 
+        device : cuda
+        Epoch 1 of 10:
+        Epoch: 1/10..  Training Loss: 0.671..  Training Accuracy: 0.814..  Validation Loss: 0.211..  Validation Accuracy: 0.939 F1 score: 1.000 LR: 0.000100 Time: 15.725
+        Epoch 2 of 10:
+        Epoch: 2/10..  Training Loss: 0.083..  Training Accuracy: 0.978..  Validation Loss: 0.074..  Validation Accuracy: 0.978 F1 score: 0.980 LR: 0.000100 Time: 30.559
+        Epoch 3 of 10:
+        Epoch: 3/10..  Training Loss: 0.042..  Training Accuracy: 0.989..  Validation Loss: 0.039..  Validation Accuracy: 0.989 F1 score: 1.000 LR: 0.000100 Time: 45.386
+        Epoch 4 of 10:
+        Epoch: 4/10..  Training Loss: 0.033..  Training Accuracy: 0.990..  Validation Loss: 0.056..  Validation Accuracy: 0.982 F1 score: 0.922 LR: 0.000100 Time: 60.393
+        Epoch 5 of 10:
+        Epoch: 5/10..  Training Loss: 0.024..  Training Accuracy: 0.993..  Validation Loss: 0.028..  Validation Accuracy: 0.992 F1 score: 1.000 LR: 0.000100 Time: 75.589
+        Epoch 6 of 10:
+        Epoch: 6/10..  Training Loss: 0.020..  Training Accuracy: 0.994..  Validation Loss: 0.047..  Validation Accuracy: 0.984 F1 score: 0.961 LR: 0.000100 Time: 90.625
+        Epoch 7 of 10:
+        Epoch: 7/10..  Training Loss: 0.027..  Training Accuracy: 0.991..  Validation Loss: 0.021..  Validation Accuracy: 0.992 F1 score: 1.000 LR: 0.000100 Time: 105.764
+        Epoch 8 of 10:
+        Epoch: 8/10..  Training Loss: 0.016..  Training Accuracy: 0.995..  Validation Loss: 0.007..  Validation Accuracy: 0.997 F1 score: 1.000 LR: 0.000100 Time: 120.939
+        Epoch 9 of 10:
+        Epoch: 9/10..  Training Loss: 0.012..  Training Accuracy: 0.996..  Validation Loss: 0.024..  Validation Accuracy: 0.993 F1 score: 0.961 LR: 0.000100 Time: 135.993
+        Epoch 10 of 10:
+        Epoch: 10/10..  Training Loss: 0.018..  Training Accuracy: 0.994..  Validation Loss: 0.015..  Validation Accuracy: 0.995 F1 score: 0.973 LR: 0.000100 Time: 151.161
+        Test Loss: 0.007..  Test Accuracy: 0.997
+        Done!
+#12 
+start training...
+        Epoch 1, Accuracy: 97.6716056849108%, Loss: 0.03202570229768753, F1-score: 1.0, LR: 0.0001
+        Epoch 2, Accuracy: 99.66737224070154%, Loss: 0.00545603409409523, F1-score: 1.0, LR: 9.5e-05
+        Epoch 3, Accuracy: 99.5766555790747%, Loss: 0.002797649707645178, F1-score: 1.0, LR: 9.025e-05
+        Epoch 4, Accuracy: 99.7580889023284%, Loss: 0.005423355847597122, F1-score: 1.0, LR: 8.573749999999999e-05
+        Epoch 5, Accuracy: 99.7580889023284%, Loss: 0.05734845623373985, F1-score: 1.0, LR: 8.145062499999998e-05
+        Epoch 6, Accuracy: 99.72785001511944%, Loss: 0.002018531085923314, F1-score: 1.0, LR: 7.737809374999998e-05
+        Epoch 7, Accuracy: 99.72785001511944%, Loss: 0.0033333334140479565, F1-score: 1.0, LR: 7.350918906249998e-05
+        Epoch 8, Accuracy: 99.69761112791049%, Loss: 0.0001925647957250476, F1-score: 1.0, LR: 6.983372960937497e-05
+        Epoch 9, Accuracy: 99.69761112791049%, Loss: 0.0008710324764251709, F1-score: 1.0, LR: 6.634204312890622e-05
+        Epoch 10, Accuracy: 99.7580889023284%, Loss: 4.261425056029111e-05, F1-score: 1.0, LR: 6.30249409724609e-05
+Training finished, total time: 2193.8193633556366
+
+# lightweight 
+        device : cuda
+        Epoch 1 of 10:
+        Epoch: 1/10..  Training Loss: 0.671..  Training Accuracy: 0.814..  Validation Loss: 0.211..  Validation Accuracy: 0.939 F1 score: 1.000 LR: 0.000100 Time: 15.725
+        Epoch 2 of 10:
+        Epoch: 2/10..  Training Loss: 0.083..  Training Accuracy: 0.978..  Validation Loss: 0.074..  Validation Accuracy: 0.978 F1 score: 0.980 LR: 0.000100 Time: 30.559
+        Epoch 3 of 10:
+        Epoch: 3/10..  Training Loss: 0.042..  Training Accuracy: 0.989..  Validation Loss: 0.039..  Validation Accuracy: 0.989 F1 score: 1.000 LR: 0.000100 Time: 45.386
+        Epoch 4 of 10:
+        Epoch: 4/10..  Training Loss: 0.033..  Training Accuracy: 0.990..  Validation Loss: 0.056..  Validation Accuracy: 0.982 F1 score: 0.922 LR: 0.000100 Time: 60.393
+        Epoch 5 of 10:
+        Epoch: 5/10..  Training Loss: 0.024..  Training Accuracy: 0.993..  Validation Loss: 0.028..  Validation Accuracy: 0.992 F1 score: 1.000 LR: 0.000100 Time: 75.589
+        Epoch 6 of 10:
+        Epoch: 6/10..  Training Loss: 0.020..  Training Accuracy: 0.994..  Validation Loss: 0.047..  Validation Accuracy: 0.984 F1 score: 0.961 LR: 0.000100 Time: 90.625
+        Epoch 7 of 10:
+        Epoch: 7/10..  Training Loss: 0.027..  Training Accuracy: 0.991..  Validation Loss: 0.021..  Validation Accuracy: 0.992 F1 score: 1.000 LR: 0.000100 Time: 105.764
+        Epoch 8 of 10:
+        Epoch: 8/10..  Training Loss: 0.016..  Training Accuracy: 0.995..  Validation Loss: 0.007..  Validation Accuracy: 0.997 F1 score: 1.000 LR: 0.000100 Time: 120.939
+        Epoch 9 of 10:
+        Epoch: 9/10..  Training Loss: 0.012..  Training Accuracy: 0.996..  Validation Loss: 0.024..  Validation Accuracy: 0.993 F1 score: 0.961 LR: 0.000100 Time: 135.993
+        Epoch 10 of 10:
+        Epoch: 10/10..  Training Loss: 0.018..  Training Accuracy: 0.994..  Validation Loss: 0.015..  Validation Accuracy: 0.995 F1 score: 0.973 LR: 0.000100 Time: 151.161
+        Test Loss: 0.007..  Test Accuracy: 0.997
+        Done!
+
+###################################################################################################################
+# test data 
+
+# 1
+        traffic_sign_reco/run5-mobileVITv2$ python test.py 
+        Using device: cuda
+        Strict loading failed, attempting partial loading.
+        Start testing...
+
+        Accuracy: 0.9966737224070155
+        F1 Score: 0.9966731542098958
+        Correct: 3296
+        Total: 3307
+
+# 2
+        Start testing...
+
+Accuracy: 99.63713335349259%, Correct: 3295, Total: 3307, F1 Score: 0.9750432587126135
