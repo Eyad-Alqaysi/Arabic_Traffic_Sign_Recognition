@@ -4,29 +4,19 @@ Traffic Sign Recognition Project This repository contains the implementation of 
 
 Project Structure:
 
-.ipynb_checkpoints/ - Directory for Jupyter notebook autosave files (not tracked).
+| Component                        | Description                                                               |
+|----------------------------------|---------------------------------------------------------------------------|
+| `.ipynb_checkpoints/`            | Directory for Jupyter notebook autosave files.                            |
+| `models/`                        | Contains saved models and weights.                                        |
+| `TSR_our_method.ipynb`           | Jupyter notebook with our traffic sign recognition method.                |
+| `TSR_our_method_with_template.ipynb` | Template notebook for applying our method.               |
+| `combined_training_validation.png` | Training and validation accuracy and loss visualization. |
+| `conf.ipynb`                     | Notebook with configurations for the project.                             |
+| `test_data.py`                   | Script for preparing and loading the test data.                           |
+| `train.py`                       | Main training script for the model.                                       |
+| `train_data.py`                  | Script for preparing and loading the training data.                       |
+| `val_data.py`                    | Script for preparing and loading the validation data.                     |
 
-models/ - Contains saved models and weights.
-
-.gitattributes - Git configuration file for handling file types across different platforms.
-
-TSR_our_method.ipynb - Jupyter notebook demonstrating our method for traffic sign recognition.
-
-TSR_our_method_with_template.ipynb - A template notebook for applying our method with custom data.
-
-combined_training_validation.png - Visualization of training and validation accuracy and loss.
-
-conf.ipynb - Configuration notebook with parameters and settings for the recognition method.
-
-final_test.txt - Contains final testing dataset details or results.
-
-test_data.py - Script for preparing and loading the test data.
-
-train.py - Main training script for the traffic sign recognition model.
-
-train_data.py - Script for preparing and loading the training data.
-
-val_data.py - Script for preparing and loading the validation data.
 
 Setup:
 
