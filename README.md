@@ -4,15 +4,19 @@ Traffic Sign Recognition Project This repository contains the implementation of 
 
 ## Project Structure:
 
-| Component                        | Description                                                               |
-|----------------------------------|---------------------------------------------------------------------------|
-| `.ipynb_checkpoints/`            | Directory for Jupyter notebook autosave files.                            |
-| `models/`                        | Contains saved models and weights.                                        |
-| `ATSR_our_method.ipynb`           | Jupyter notebook with our traffic sign recognition method.                |
-| `test_on_test_data.py`                   | Script for preparing and loading the test data.                           |
-| `train.py`                       | Main training script for the model.                                       |
-| `test_on_train_data.py`                  | Script for preparing and loading the training data.                       |
-| `test_on_val_data.py`                    | Script for preparing and loading the validation data.                     |
+| Component                           | Description                                                             |
+|-------------------------------------|-------------------------------------------------------------------------|
+| `.ipynb_checkpoints/`               | Directory for Jupyter notebook autosave files.                          |
+| `models/`                           | Contains saved models and weights.                                      |
+| `TSR_our_method.ipynb`              | Jupyter notebook with our traffic sign recognition method.              |
+| `TSR_our_method_with_template.ipynb`| Template notebook for applying our method.                              |
+| `combined_training_validation.png`  | Training and validation accuracy and loss visualization.                |
+| `conf.ipynb`                        | Notebook with configurations for the project.                           |
+| `test_data.py`                      | Script for preparing and loading the test data.                         |
+| `train.py`                          | Main training script for the model.                                     |
+| `train_data.py`                     | Script for preparing and loading the training data.                     |
+| `val_data.py`                       | Script for preparing and loading the validation data.                   |
+| `requirements.txt`                  | Lists all the libraries and their versions needed for the project.      |
 
 
 ## Setup:
