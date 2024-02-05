@@ -34,11 +34,11 @@ Usage:
 
 To explore our traffic sign recognition method, start with the TSR_our_method.ipynb Jupyter notebook:
 
-jupyter notebook TSR_our_method.ipynb
+`jupyter notebook TSR_our_method.ipynb`
 
 For training the model with your data, run:
 
-python train.py
+`python train.py`
 
 Contributing:
 
