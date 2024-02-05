@@ -22,13 +22,13 @@ Setup:
 
 To get started with this project, clone this repository to your local machine:
 
-git clone https://github.com/yourusername/traffic-sign-recognition.git
+`https://github.com/Eyad-Alqaysi/Arabic_Traffic_Sign_Recognition.git`
 
-cd traffic-sign-recognition
+`cd Arabic_Traffic_Sign_Recognition`
 
 Ensure you have the necessary dependencies installed. While the specific requirements may vary, a typical setup might look like this:
 
-pip install numpy matplotlib jupyter tensorflow keras
+`pip install -r requirements.txt`
 
 Usage:
 
