@@ -9,9 +9,6 @@ Project Structure:
 | `.ipynb_checkpoints/`            | Directory for Jupyter notebook autosave files.                            |
 | `models/`                        | Contains saved models and weights.                                        |
 | `ATSR_our_method.ipynb`           | Jupyter notebook with our traffic sign recognition method.                |
-
-
-
 | `test_on_test_data.py`                   | Script for preparing and loading the test data.                           |
 | `train.py`                       | Main training script for the model.                                       |
 | `test_on_train_data.py`                  | Script for preparing and loading the training data.                       |
