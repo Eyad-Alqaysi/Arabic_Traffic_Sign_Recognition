@@ -1,0 +1,7 @@
+torch==1.10.0
+torchvision==0.11.1
+timm==0.4.12
+scikit-learn==0.24.2
+matplotlib==3.4.3
+torchviz==0.0.2
+numpy==1.21.2
