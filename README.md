@@ -1,17 +1,59 @@
 
 # Arabic Traffic Sign Recognition
-## Overview
-This paper presents a significant advancement in the field of Traffic Sign Recognition (TSR), with a focus on Arabic traffic signs. It is a collaborative effort by Eyad Alqaysi, Waleed Alsarhani, Abdulmajeed Alsharafi, and Mohammed Alzahrani, aiming to enhance the capabilities of advanced driver-assistance systems (ADAS) and autonomous vehicles through accurate, real-time recognition of traffic signs. The research employs advanced deep learning techniques, particularly convolutional neural networks (CNNs) and vision transformers, to develop a model that achieves remarkable accuracy in recognizing traffic signs under various conditions.
+Traffic Sign Recognition Project This repository contains the implementation of our traffic sign recognition method, including Jupyter notebooks for demonstration, training scripts, and configuration files. It's designed to provide a comprehensive overview of our approach to recognizing traffic signs using machine learning techniques.
 
-## Key Contributions
-High Accuracy: The model demonstrates exceptional performance with an accuracy of 99.75%, setting a new benchmark in the field of TSR, particularly for Arabic traffic signs.
-Advanced Techniques: Utilization of convolutional neural networks (CNNs) and vision transformers, optimized for the complex task of traffic sign recognition.
-Robust Dataset: Training on an extensive dataset comprising 2,718 real images and 57,078 augmented images of Arabic traffic signs, collected from Eastern Saudi Arabia, ensuring the model's reliability and adaptability.
-## Methodology
-The research introduces a novel approach using the MobileViTv2 architecture, enhanced with a custom-designed Multilayer Perceptron (MLP). This strategic enhancement aims to augment the architecture’s ability to precisely recognize and interpret Arabic traffic signs, addressing the unique challenges posed by the Arabic script and regional traffic sign variations.
+Project Structure:
 
-## Dataset and Experiments
-The study employs a comprehensive dataset of Arabic traffic signs for model training and validation. The dataset includes a diverse collection of traffic signs captured under various environmental conditions, ensuring the model's robustness. Comparative experiments with established TSR methods highlight the proposed model's superior performance.
+.ipynb_checkpoints/ - Directory for Jupyter notebook autosave files (not tracked).
 
-## Conclusion
-The paper concludes that the proposed model significantly advances Arabic Traffic Sign Recognition, offering potential applications in autonomous driving and intelligent traffic management systems. The high accuracy and robustness of the model underscore its potential to enhance road safety and navigation in Arabic-speaking regions.
+models/ - Contains saved models and weights.
+
+.gitattributes - Git configuration file for handling file types across different platforms.
+
+TSR_our_method.ipynb - Jupyter notebook demonstrating our method for traffic sign recognition.
+
+TSR_our_method_with_template.ipynb - A template notebook for applying our method with custom data.
+
+combined_training_validation.png - Visualization of training and validation accuracy and loss.
+
+conf.ipynb - Configuration notebook with parameters and settings for the recognition method.
+
+final_test.txt - Contains final testing dataset details or results.
+
+test_data.py - Script for preparing and loading the test data.
+
+train.py - Main training script for the traffic sign recognition model.
+
+train_data.py - Script for preparing and loading the training data.
+
+val_data.py - Script for preparing and loading the validation data.
+
+Setup:
+
+To get started with this project, clone this repository to your local machine:
+
+git clone https://github.com/yourusername/traffic-sign-recognition.git
+
+cd traffic-sign-recognition
+
+Ensure you have the necessary dependencies installed. While the specific requirements may vary, a typical setup might look like this:
+
+pip install numpy matplotlib jupyter tensorflow keras
+
+Usage:
+
+To explore our traffic sign recognition method, start with the TSR_our_method.ipynb Jupyter notebook:
+
+jupyter notebook TSR_our_method.ipynb
+
+For training the model with your data, run:
+
+python train.py
+
+Contributing:
+
+We welcome contributions to improve this project! Whether it's by reporting issues, adding new features, or improving documentation, your help is appreciated. Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
+
+License:
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
