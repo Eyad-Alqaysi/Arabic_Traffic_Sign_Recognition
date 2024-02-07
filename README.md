@@ -8,16 +8,12 @@ Traffic Sign Recognition Project This repository contains the implementation of 
 |-------------------------------------|-------------------------------------------------------------------------|
 | `.ipynb_checkpoints/`               | Directory for Jupyter notebook autosave files.                          |
 | `models/`                           | Contains saved models and weights.                                      |
-| `TSR_our_method.ipynb`              | Jupyter notebook with our traffic sign recognition method.              |
-| `TSR_our_method_with_template.ipynb`| Template notebook for applying our method.                              |
-| `combined_training_validation.png`  | Training and validation accuracy and loss visualization.                |
-| `conf.ipynb`                        | Notebook with configurations for the project.                           |
-| `test_data.py`                      | Script for preparing and loading the test data.                         |
-| `train.py`                          | Main training script for the model.                                     |
-| `train_data.py`                     | Script for preparing and loading the training data.                     |
-| `val_data.py`                       | Script for preparing and loading the validation data.                   |
+| `ATSR_our_method.ipynb`              | Jupyter notebook with our traffic sign recognition method.              |
 | `requirements.txt`                  | Lists all the libraries and their versions needed for the project.      |
-
+| `test_on_test_data.py`                      | Script for preparing and loading the test data.                         |
+| `test_on_train_data.py`                     | Script for preparing and loading the training data.                     |
+| `test_on_val_data.py`                       | Script for preparing and loading the validation data.                   |
+| `train.py`                          | Main training script for the model.                                     |
 
 ## Setup:
 
@@ -74,7 +70,7 @@ Ensure you have the necessary dependencies installed. While the specific require
 
 To explore our traffic sign recognition method, start with the TSR_our_method.ipynb Jupyter notebook:
 
-`jupyter notebook TSR_our_method.ipynb`
+`jupyter notebook ATSR_our_method.ipynb`
 
 For training the model with your data, run:
 
