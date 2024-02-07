@@ -17,6 +17,8 @@ The model was trained on an extensive dataset comprising 2,718 real images of Ar
 | MobileViTv2 | 99.66       |
 | **MobileViTv2-MLP (Proposed)**       | **99.75**    |
 
+[Samples]( https://github.com/Eyad-Alqaysi/Arabic_Traffic_Sign_Recognition/blob/main/samples.png "Samples")
+
 ## Project Structure:
 
 | Component                           | Description                                                             |
