@@ -10,7 +10,19 @@ The model was trained on an extensive dataset comprising 2,718 real images of Ar
 
 ![dataset_classes](https://github.com/Eyad-Alqaysi/Arabic_Traffic_Sign_Recognition/blob/main/classes.png  "The classes in the Arabic Traffic Sign Dataset")
 
-\n The performance was evaluated against baseline methods like ResNetV1, ResNetV2, LightCNN, and the original MobileViTv2, showcasing the proposed method's superior accuracy of 99.75%.
+The performance was evaluated against baseline methods like ResNetV1, ResNetV2, LightCNN, and the original MobileViTv2, showcasing the proposed method's superior accuracy of 99.75%.
+### Comparative Results with Existing Methods
+
+| Method                               | Accuracy (%) |
+|--------------------------------------|--------------|
+| ResNetV1 (Original) | 87.45       |
+| ResNetV2 (Original) | 86.29       |
+| ResNetV1 (Optimized) | 96.14       |
+| ResNetV2 (Optimized) | 94.40       |
+| Lightweight CNN     | 99.66        |
+| MobileViTv2 | 99.66       |
+| **MobileViTv2-MLP (Proposed)**       | **99.75**    |
+
 ## Project Structure:
 
 | Component                           | Description                                                             |
