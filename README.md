@@ -3,14 +3,8 @@
 Traffic Sign Recognition Project This repository contains the implementation of our traffic sign recognition method, including Jupyter notebooks for demonstration, training scripts, and configuration files. It's designed to provide a comprehensive overview of our approach to recognizing traffic signs using machine learning techniques.
 ## Methodology:
 The proposed methodology centers around the MobileViTv2 architecture, known for its balance between performance and computational efficiency, making it suitable for mobile or embedded systems. This architecture is enhanced with a custom-designed MLP to improve the model's capability in recognizing and interpreting Arabic traffic signs accurately. The MLP consists of three fully connected layers designed to extract and transform features, with the introduction of ReLU activation functions, batch normalization, and dropout layers to enhance learning capabilities and prevent overfitting.
-![MobileVITv2_MLP](https://github.com/Eyad-Alqaysi/Arabic_Traffic_Sign_Recognition/blob/main/ourMethod.png "MobileVITv2_MLP")
-
 ## Experiments and Dataset:
-The model was trained on an extensive dataset comprising 2,718 real images of Arabic traffic signs from the Eastern Province of Saudi Arabia, augmented with variations to cover a wide range of conditions. The dataset was divided into 70% training, 10% validation, and 20% testing sets. 
-
-![dataset_classes](https://github.com/Eyad-Alqaysi/Arabic_Traffic_Sign_Recognition/blob/main/classes.png  "The classes in the Arabic Traffic Sign Dataset")
-
-The performance was evaluated against baseline methods like ResNetV1, ResNetV2, LightCNN, and the original MobileViTv2, showcasing the proposed method's superior accuracy of 99.75%.
+The model was trained on an extensive dataset comprising 2,718 real images of Arabic traffic signs from the Eastern Province of Saudi Arabia, augmented with variations to cover a wide range of conditions. The dataset was divided into 70% training, 10% validation, and 20% testing sets. The performance was evaluated against baseline methods like ResNetV1, ResNetV2, LightCNN, and the original MobileViTv2, showcasing the proposed method's superior accuracy of 99.75%.
 ### Comparative Results with Existing Methods
 
 | Method                               | Accuracy (%) |
