@@ -7,8 +7,10 @@ The proposed methodology centers around the MobileViTv2 architecture, known for 
 
 ## Experiments and Dataset:
 The model was trained on an extensive dataset comprising 2,718 real images of Arabic traffic signs from the Eastern Province of Saudi Arabia, augmented with variations to cover a wide range of conditions. The dataset was divided into 70% training, 10% validation, and 20% testing sets. 
+
 ![dataset_classes](https://github.com/Eyad-Alqaysi/Arabic_Traffic_Sign_Recognition/blob/main/classes.png  "The classes in the Arabic Traffic Sign Dataset")
-The performance was evaluated against baseline methods like ResNetV1, ResNetV2, LightCNN, and the original MobileViTv2, showcasing the proposed method's superior accuracy of 99.75%.
+
+\n The performance was evaluated against baseline methods like ResNetV1, ResNetV2, LightCNN, and the original MobileViTv2, showcasing the proposed method's superior accuracy of 99.75%.
 ## Project Structure:
 
 | Component                           | Description                                                             |
