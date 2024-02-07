@@ -84,6 +84,3 @@ For training the model with your data, run:
 
 We welcome contributions to improve this project! Whether it's by reporting issues, adding new features, or improving documentation, your help is appreciated. Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
-## License:
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
